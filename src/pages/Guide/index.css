@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+    transition: opacity 4s ease;
+    z-index: 3;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url('./images/homepage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.guide {
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-image: url('./images/guide.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    transform: translateY(0);
+    z-index: 5;
+}
+
+@keyframes spring {
+    from {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(10vh);
+    }
+
+    to {
+        transform: translateY(-80vh);
+    }
+}
+
+
+
+.guide img {
+    height: 10%;
+    width: 50%;
+    top: 7.2vh;
+    left: 0;
+}
+
+.enter-button {
+    position: relative;
+    width: 70vw;
+    height: 17vh;
+    display: inline-block;
+    z-index: 5;
+}
+
+@keyframes zoom {
+    from {
+        width: 70vw;
+        height: 17vh;
+    }
+
+    35% {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    to {
+
+        width: 0vw;
+        height: 0vh;
+    }
+}
+
+.enter-button img {
+    height: 100%;
+    width: 100%;
+}
