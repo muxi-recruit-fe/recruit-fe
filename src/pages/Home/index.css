@@ -1,0 +1,80 @@
+@font-face {
+    font-family: TsangerZhoukeZhengdabangshu;
+    src: url('../../font/仓耳周珂正大榜书.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url('./images/homepage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    opacity: 0;
+    animation: 3s appear forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.content1 {
+    position: absolute;
+    width: 18.7vw;
+    height: 20.3vh;
+    top: 10vh;
+    left: 6vw;
+}
+
+.content2 {
+    position: absolute;
+    width: 18.7vw;
+    height: 20.3vh;
+    top: 16vh;
+    left: 75vw;
+}
+
+.content3 {
+    position: absolute;
+    width: 18.7vw;
+    height: 20.3vh;
+    top: 56vh;
+    left: 54vw;
+}
+
+.content4 {
+    position: absolute;
+    width: 18.7vw;
+    height: 20.3vh;
+    top: 54vh;
+    left: 1vw;
+}
+
+.share {
+    position: absolute;
+    right: 10vw;
+    bottom: 5vh;
+    font-family: TsangerZhoukeZhengdabangshu;
+}
+
+.back {
+    position: absolute;
+    left: 10vw;
+    bottom: 5vh;
+    font-family: TsangerZhoukeZhengdabangshu;
+}

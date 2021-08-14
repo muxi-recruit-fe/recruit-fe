@@ -28,12 +28,25 @@
     position: relative;
     height: 70vh;
     width: 100vw;
-    background-image: url('./images/guide.svg');
+    background-image: url('./images/guide.png');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
     transform: translateY(0);
     z-index: 5;
+}
+
+.enter-button {
+    position: relative;
+    width: 70vw;
+    height: 17vh;
+    display: inline-block;
+    z-index: 5;
+}
+
+.enter-button img {
+    height: 100%;
+    width: 100%;
 }
 
 @keyframes spring {
@@ -51,22 +64,6 @@
 }
 
 
-
-.guide img {
-    height: 10%;
-    width: 50%;
-    top: 7.2vh;
-    left: 0;
-}
-
-.enter-button {
-    position: relative;
-    width: 70vw;
-    height: 17vh;
-    display: inline-block;
-    z-index: 5;
-}
-
 @keyframes zoom {
     from {
         width: 70vw;
@@ -83,9 +80,4 @@
         width: 0vw;
         height: 0vh;
     }
-}
-
-.enter-button img {
-    height: 100%;
-    width: 100%;
 }
