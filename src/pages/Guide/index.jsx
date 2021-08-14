@@ -41,7 +41,7 @@ export default function Guide(props) {
 
         setTimeout(function () {
             history.push('/home')
-        }, 2000)
+        }, 1500)
     }
 
 
