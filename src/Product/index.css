@@ -1,0 +1,90 @@
+*{
+    font-family:uniStyle;
+}
+.uni {
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.xz {
+    background-image: url(./img/xiazi.png);
+}
+
+.lucky {
+    background-image: url(./img/lucky.png);
+}
+
+.qc {
+    background-image: url(./img/qc.png);
+}
+
+.kz {
+    background-image: url(./img/kz.png);
+}
+
+.bg {
+    background-image: url(./img/首页375812@2x.png);
+}
+
+.back {
+    background-image: url(./img/UI_Back@2x.png);
+}
+
+.slyxg {
+    background-image: url(./img/senlinyunxg.png);
+}
+
+.jz {
+    background-image: url(./img/木犀宝典-卷轴@2x.png);
+}
+
+.title {
+    font-size: 25px;
+    color: #363636;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.info {
+    font-size: 16px;
+    color: #363636;
+    text-align: left;
+}
+
+.nextBox {
+    position: absolute;
+    width: 200px;
+    transform: translateX(-50%);
+    height: 30px;
+}
+.turnText{
+    width: 83px;
+    height: 30px;
+    color: #E46B6B;
+    text-align: center;
+    border: 3px solid #E46B6B;
+    /* margin: 0 auto; */
+    
+    font-size: 18px;
+    border-radius: 25px;
+}
+.backText {
+    font-weight: bold;
+    color: #333333;
+    font-size: 20px;
+    text-align: center;
+}
+@font-face {
+    font-family: 'uniStyle';
+    src: url(./思源黑体\ \(5\).otf);
+}
+.turnAnimation0,.turnAnimation2{
+    transition: all 0.2s; 
+}
+.turnAnimation2{
+    transform:translateX(100%) scale(0);
+}
+.turnAnimation0{
+    transform:scale(1);
+}
