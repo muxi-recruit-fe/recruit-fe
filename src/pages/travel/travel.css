@@ -1,0 +1,170 @@
+@font-face{
+    font-family: 'TsangerZhoukeZhengdabangshu';
+    src: url(../../font/TsangerZhoukeZhengdabangshu.ttf);
+}
+
+.main{
+    position: relative;
+    z-index: 0;
+}
+
+.mask{
+    height:100%;
+    width:100%;
+    background: rgb(255, 255, 255 ,0.5);
+}
+
+.reel{
+    position: absolute;
+    z-index: 1;
+    height:100%;
+    width:100%;
+}
+
+.rotation{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.image{
+    width: 0;
+    float: left;
+    transition: .1s;
+}
+
+.rota_input:checked + .image{
+    width: 100%;
+}
+
+.rota_input{
+    position: absolute;
+    bottom: 10px;
+}
+
+.rotation :nth-child(1){
+    left:70%;
+}
+.rotation :nth-child(3){
+    left:80%;
+}
+
+.container{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+}
+
+.container1{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    padding-top: 15%;
+}
+
+
+.title{
+    position: relative;
+    z-index: 3;
+    width: 80% !important;
+    font-size: 1.1em;
+    padding-top: 10%;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text{
+    position: relative;
+    z-index: 3;
+    width: 70%;
+    height: 25%;
+    font-size: 1em;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.next{
+    border-color: #E46B6B;
+    color: #E46B6B;
+    position: relative;
+    z-index: 3;
+    border: #E46B6B 4px solid ;
+    border-radius: 30%;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 25%;
+    text-decoration:none;
+    display: inline;
+    padding: 2%;
+}
+
+.previous{
+    border-color: #E46B6B;
+    color: #E46B6B;
+    position: relative;
+    z-index: 3;
+    border: #E46B6B 4px solid ;
+    border-radius: 20%;
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 25%;
+    text-decoration:none;
+    display: inline;
+    padding: 2%;
+}
+
+.btn{
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.back{
+    position: absolute;
+    z-index: 4;
+    left: 7%;
+    bottom: 5%;
+}
+
+.back1{
+    position: absolute;
+    z-index: 4;
+    left: 8.5%;
+    bottom: 2%;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'TsangerZhoukeZhengdabangshu';
+}
+
+.title1{
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5%;
+    margin-top: -30%;
+    font-family: 'TsangerZhoukeZhengdabangshu';
+    color: #C03B20;
+}
+
+.link {
+    text-decoration: none;
+  }
