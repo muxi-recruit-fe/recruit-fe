@@ -1,4 +1,4 @@
-.contain{
+.contain_miji{
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -49,7 +49,7 @@
     bottom: 24%;
     left: 45%;
 }
-.back{
+.back_miji{
     width: 20%;
     height: 10%;
 }
