@@ -1,64 +1,64 @@
 *{
     font-family:uniStyle;
 }
-.uni {
+.k-uni {
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
-.xz {
+.k-xz {
     background-image: url(./img/xiazi.png);
 }
 
-.lucky {
+.k-lucky {
     background-image: url(./img/lucky.png);
 }
 
-.qc {
+.k-qc {
     background-image: url(./img/qc.png);
 }
 
-.kz {
+.k-kz {
     background-image: url(./img/kz.png);
 }
 
-.bg {
+.k-bg {
     background-image: url(./img/首页375812@2x.png);
 }
 
-.back {
+.k-back {
     background-image: url(./img/UI_Back@2x.png);
 }
 
-.slyxg {
+.k-slyxg {
     background-image: url(./img/senlinyunxg.png);
 }
 
-.jz {
+.k-jz {
     background-image: url(./img/木犀宝典-卷轴@2x.png);
 }
 
-.title {
+.k-title {
     font-size: 25px;
     color: #363636;
     text-align: center;
     margin: 20px 0;
 }
 
-.info {
+.k-info {
     font-size: 16px;
     color: #363636;
     text-align: left;
 }
 
-.nextBox {
+.k-nextBox {
     position: absolute;
     width: 200px;
     transform: translateX(-50%);
     height: 30px;
 }
-.turnText{
+.k-turnText{
     width: 83px;
     height: 30px;
     color: #E46B6B;
@@ -69,7 +69,7 @@
     font-size: 18px;
     border-radius: 25px;
 }
-.backText {
+.k-backText {
     font-weight: bold;
     color: #333333;
     font-size: 20px;
@@ -79,12 +79,12 @@
     font-family: 'uniStyle';
     src: url(./思源黑体\ \(5\).otf);
 }
-.turnAnimation0,.turnAnimation2{
+.k-turnAnimation0,.turnAnimation2{
     transition: all 0.2s; 
 }
-.turnAnimation2{
+.k-turnAnimation2{
     transform:translateX(100%) scale(0);
 }
-.turnAnimation0{
+.k-turnAnimation0{
     transform:scale(1);
 }
