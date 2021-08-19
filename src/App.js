@@ -1,6 +1,6 @@
 import './App.css';
 import Hackathon from './pages/hackathon/hackathon';
-import { BrowserRouter as Router, Link, Route, Switch, HashRouter, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
 import Meeting from './pages/meeting/meeting';
 import Travel from './pages/travel/travel';
 import Introduction from './pages/introduction/introduction';
@@ -11,13 +11,13 @@ import Notice from "./pages/Notice";
 import Miji from "./pages/miji";
 import Info from "./pages/info";
 import Product from "./pages/Product";
-import AnimatedRouter from 'react-animated-router';
 import 'react-animated-router/animate.css';
 
 function App() {
   return (
     <div className='animate-route'>
       <Router>
+        <Redirect exact from="/" to="/guide" />
         <Route path="/meeting" component={Meeting}></Route>
         <Route path="/travel" component={Travel}></Route>
         <Route path="/hackathon" component={Hackathon}></Route>

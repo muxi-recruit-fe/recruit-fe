@@ -21,17 +21,17 @@ export default class Meeting extends React.Component {
             <div className="main" style={backgroundImage}>
                 <div className="mask">
                     <div className="image">
-                        <img src={reel} className="reel" />
+                        <img src={reel} className="reel" alt=''/>
                     </div>
 
                     <div className="container1">
                     <div className="title1"> 江湖风云 </div>
                         <div className="rotation">
                             <input type="radio" name="rotation" className="rota_input" defaultChecked={true}></input>
-                            <img src={pic3} className="image"></img>
+                            <img src={pic3} className="image" alt=''></img>
 
                             <input type="radio" name="rotation" className="rota_input"></input>
-                            <img src={pic4} className="image"></img>
+                            <img src={pic4} className="image" alt=''></img>
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@ export default class Meeting extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <Link to={'/home'}> <img src={back} className="back-wyc" /> </Link>
+                        <Link to={'/home'}> <img src={back} className="back-wyc" alt=''/> </Link>
                         <div className="back1" >返回</div>
                     </div>
                 </div>

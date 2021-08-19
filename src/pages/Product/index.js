@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState } from 'react';
 import './index.css';
 const wpx = window.innerWidth / 375;
 const hpx = window.innerHeight / 812;
@@ -37,7 +37,7 @@ function Product(props) {
     const [current, setCurrnet] = useState(0);
     function turn(change) {
         let ele = document.querySelector(`.k-turnAnimation0`);
-        let ele2 = document.querySelector(`.k-turnAnimation2`);
+        //let ele2 = document.querySelector(`.k-turnAnimation2`);
         ele.style.transform = `scale(0)`;
         setTimeout(() => {
             ele.style.transform = `translateX(${10 * change}%)`;

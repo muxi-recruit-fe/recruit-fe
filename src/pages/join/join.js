@@ -22,12 +22,12 @@ export default class Join extends React.Component {
             <div className="main" style={backgroundImage}>
                 <div className="mask">
                     <div className="image1">
-                        <img src={reel} className="reel" />
+                        <img src={reel} className="reel" alt=''/>
                     </div>
 
                     <div className="container1">
                         <div className="title1"> 江湖风云 </div>
-                        <img src={code} className = "code"></img>
+                        <img src={code} className = "code" alt=''></img>
                     </div>
 
                     <div className="container">
@@ -41,7 +41,7 @@ export default class Join extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <Link to={'/home'}> <img src={back} className="back-wyc" /> </Link>
+                        <Link to={'/home'}> <img src={back} className="back-wyc" alt=''/> </Link>
                         <div className="back1" >返回</div>
                     </div>
                 </div>

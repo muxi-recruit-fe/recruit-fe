@@ -21,7 +21,7 @@ export default class Introduction extends React.Component {
             <div className="main" style={backgroundImage}>
                 <div className="mask">
                     <div className="image1">
-                        <img src={reel} className="reel" />
+                        <img src={reel} className="reel" alt=''/>
                     </div>
 
                     <div className="container1">
@@ -37,7 +37,7 @@ export default class Introduction extends React.Component {
                         <Link to={'/join'} className="link"><div className="previous">PREV</div></Link>
                     </div>
                     <div>
-                        <Link to={'/home'}><img src={back} className="back-wyc" /> </Link>
+                        <Link to={'/home'}><img src={back} className="back-wyc" alt=''/> </Link>
                         <div className="back1" >返回</div>
                     </div>
                 </div>
