@@ -37,7 +37,7 @@ export default class Info extends Component{
             <div className='info'>
                 <img src={imgback} alt='' className='backtomiji' onClick={this.backMiji.bind(this)}></img>
                 <img src={this.state.imgList[this.state.imgNUM]} alt='图片加载失败' className='infoImg'></img>
-                <div className='next'>
+                <div className='next_info'>
                     <img src={imgnext} alt='' className='nextimg' onClick={this.chageimg.bind(this)}></img>
                     <div className='nexttext'>{this.state.textList[this.state.imgNUM]}</div>
                 </div>
