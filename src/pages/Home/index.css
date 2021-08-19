@@ -1,0 +1,107 @@
+@font-face {
+    font-family: TsangerZhoukeZhengdabangshu;
+    src: url('../../font/仓耳周珂正大榜书.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-lyl {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url('./images/homepage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-lyl {
+    opacity: 0;
+    animation: 3s appear forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.content0 {
+    position: absolute;
+    width: 18.7vw;
+    height: 23vh;
+    top: 10vh;
+    left: 6vw;
+}
+
+.content1 {
+    position: absolute;
+    width: 18.7vw;
+    height: 23vh;
+    top: 16vh;
+    left: 75vw;
+}
+
+.content2 {
+    position: absolute;
+    width: 18.7vw;
+    height: 23vh;
+    top: 56vh;
+    left: 54vw;
+}
+
+.content3 {
+    position: absolute;
+    width: 18.7vw;
+    height: 23vh;
+    top: 54vh;
+    left: 1vw;
+}
+
+.share-lyl {
+    position: absolute;
+    right: 10vw;
+    bottom: 5vh;
+    font-family: TsangerZhoukeZhengdabangshu;
+}
+
+.back-lyl {
+    position: absolute;
+    left: 10vw;
+    bottom: 5vh;
+    font-family: TsangerZhoukeZhengdabangshu;
+}
+
+.beBig {
+    animation: 1s bebig;
+    animation-direction: alternate
+}
+
+@keyframes bebig {
+    form {
+        filter: brightness(1);
+    }
+
+
+    50% {
+        filter: brightness(1.5);
+        width: 25vw;
+        height: 30vh;
+    }
+
+    to {
+        filter: brightness(1);
+    }
+}

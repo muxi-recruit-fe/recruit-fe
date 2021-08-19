@@ -1,0 +1,27 @@
+.info{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url('./img/bgd.svg');
+}
+.infoImg{
+    width: 100%;
+    height: 100%;
+}
+.next{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    bottom: 7%;
+    left: 74%;
+}
+.nexttext{
+    color: whitesmoke;
+    font-weight: 1000;
+}
+.backtomiji{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+}
