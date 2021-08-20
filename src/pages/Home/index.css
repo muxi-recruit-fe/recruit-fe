@@ -1,6 +1,6 @@
-@font-face {
-    font-family: TsangerZhoukeZhengdabangshu;
-    src: url('../../font/仓耳周珂正大榜书.ttf');
+@font-face{
+    font-family: 'TsangerZhoukeZhengdabangshu';
+    src: url(../../font/TsangerZhoukeZhengdabangshu.ttf);
 }
 
 * {
@@ -70,18 +70,26 @@ img {
     left: 1vw;
 }
 
-.share-lyl {
+.share-lyl{
     position: absolute;
     right: 10vw;
     bottom: 5vh;
-    font-family: TsangerZhoukeZhengdabangshu;
+    font-family: 'TsangerZhoukeZhengdabangshu';
 }
 
-.back-lyl {
+.back-lyl{
     position: absolute;
     left: 10vw;
     bottom: 5vh;
-    font-family: TsangerZhoukeZhengdabangshu;
+    font-family: 'TsangerZhoukeZhengdabangshu';
+}
+
+.share-lyl h1{
+    font-family: 'TsangerZhoukeZhengdabangshu';
+}
+
+.back-lyl h1{
+    font-family: 'TsangerZhoukeZhengdabangshu';
 }
 
 .beBig {

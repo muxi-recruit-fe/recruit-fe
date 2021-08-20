@@ -11,6 +11,7 @@ import Notice from "./pages/Notice";
 import Miji from "./pages/miji";
 import Info from "./pages/info";
 import Product from "./pages/Product";
+import AnimatedRouter from 'react-animated-router';
 import 'react-animated-router/animate.css';
 
 function App() {
@@ -18,11 +19,13 @@ function App() {
     <div className='animate-route'>
       <Router>
         <Redirect exact from="/" to="/guide" />
+        <AnimatedRouter>
         <Route path="/meeting" component={Meeting}></Route>
         <Route path="/travel" component={Travel}></Route>
         <Route path="/hackathon" component={Hackathon}></Route>
         <Route path="/join" component={Join}></Route>
         <Route path="/introduction" component={Introduction}></Route>
+        </AnimatedRouter>
         <Route path='/product' component={Product}></Route>
         <Route path='/guide' component={Guide}></Route>
         <Route path='/home' component={Home}></Route>
