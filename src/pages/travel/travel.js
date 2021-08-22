@@ -4,6 +4,8 @@ import back from '../../imgs/back.svg'
 import reel from '../../imgs/reel.png'
 import pic5 from '../../imgs/05.jpg'
 import pic6 from '../../imgs/06.jpg'
+import fh from '../../imgs/fh.png'
+import jhfy from '../../imgs/jhfy.png'
 import './travel.css'
 import { Link } from "react-router-dom"
 
@@ -25,8 +27,8 @@ export default class Travel extends React.Component {
                     </div>
 
                     <div className="container1">
-                    <div className="title1"> 江湖风云 </div>
-                        <div className="rotation">
+                        <img src={jhfy} className="title1-wyc" alt=''></img>
+                        <div className="rotation-wyc">
                             <input type="radio" name="rotation" className="rota_input" defaultChecked={true}></input>
                             <img src={pic5} className="image" alt=''></img>
 
@@ -47,7 +49,7 @@ export default class Travel extends React.Component {
                     </div>
                     <div>
                         <Link to={'/home'}><img src={back} className="back-wyc" alt=''/> </Link>
-                        <div className="back1" >返回</div>
+                        <img src={fh} className="back1-wyc" alt=''/>
                     </div>
                 </div>
             </div>

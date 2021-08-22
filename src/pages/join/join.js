@@ -3,6 +3,8 @@ import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
 import reel from '../../imgs/reel.png'
 import code from '../../imgs/code.png'
+import fh from '../../imgs/fh.png'
+import jhfy from '../../imgs/jhfy.png'
 import './join.css'
 import { Link } from "react-router-dom"
 
@@ -26,7 +28,7 @@ export default class Join extends React.Component {
                     </div>
 
                     <div className="container1">
-                        <div className="title1"> 江湖风云 </div>
+                    <img src={jhfy} className="title1-wyc" alt=''></img>
                         <img src={code} className = "code" alt=''></img>
                     </div>
 
@@ -42,7 +44,7 @@ export default class Join extends React.Component {
                     </div>
                     <div>
                         <Link to={'/home'}> <img src={back} className="back-wyc" alt=''/> </Link>
-                        <div className="back1" >返回</div>
+                        <img src={fh} className="back1-wyc" alt=''/>
                     </div>
                 </div>
             </div>

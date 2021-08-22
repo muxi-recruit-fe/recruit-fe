@@ -142,24 +142,6 @@
     bottom: -41%;
 }
 
-.back1{
-    position: absolute;
-    z-index: 4;
-    left: 8.5%;
-    bottom: 2%;
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-.title1{
-    text-align: center;
-    font-size: 1.9em;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 5%;
-    margin-top: -30%;
-    color: #C03B20;
-}
 
 .link {
     text-decoration: none;

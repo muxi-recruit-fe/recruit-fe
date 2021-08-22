@@ -16,13 +16,13 @@
     width:100%;
 }
 
-.rotation{
+.rotation-wyc{
     position: relative;
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
     vertical-align: middle;
-    margin-top: 20% !important;
+    margin-top: -70% !important;
 }
 
 .image{
@@ -140,22 +140,21 @@
     bottom: -41%;
 }
 
-.back1{
+.back1-wyc{
     position: absolute;
     z-index: 4;
-    left: 8.5%;
-    bottom: 2%;
-    font-size: 1.3em;
-    font-weight: bold;
+    left: -3%;
+    bottom: -9%;
+    width: 35%;
+    height: 25%;
 }
 
-.title1{
-    text-align: center;
-    font-size: 1.9em;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.title1-wyc{
     margin-bottom: 5%;
-    margin-top: 35% !important;
+    margin-top: 0;
+    margin-left: 5%;
+    height: 80%;
+    width: 90%;
     color: #C03B20;
 }
 
