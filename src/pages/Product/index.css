@@ -4,7 +4,11 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
+.k-team{
+    background-image: url(./img/k-team.png);
+    background-size: 40% 40%;
+    background-position: center 10px;
+}
 .k-xz {
     background-image: url(./img/xiazi.png);
 }
@@ -49,7 +53,6 @@
     color: #363636;
     text-align: left;
 }
-
 .k-nextBox {
     position: absolute;
     width: 200px;
@@ -62,24 +65,33 @@
     color: #E46B6B;
     text-align: center;
     border: 3px solid #E46B6B;
+    line-height: 24px;
     /* margin: 0 auto; */
     
     font-size: 18px;
     border-radius: 25px;
 }
 .k-backText {
+    background-image: url(./img/k-back.png);
+    /* width: 30px; */
     font-weight: bold;
-    color: #333333;
+    color: transparent;
     font-size: 20px;
     text-align: center;
 }
-
-.k-turnAnimation0,.turnAnimation2{
-    transition: all 0.2s; 
+.k-turnAnimation0,.k-turnAnimation2{
+    transition: all .2s ease-in-out; 
+    /* transition-timing-function: cubic-bezier(.32,-1.4,.02,1.76); */
 }
 .k-turnAnimation2{
-    transform:translateX(100%) scale(0);
+    transform:scale(0);
 }
 .k-turnAnimation0{
     transform:scale(1);
+}
+.k-turnAnimation0.move{
+    transform: scale(0);
+}
+.k-turnAnimation2.move{
+    transform: scale(1);
 }

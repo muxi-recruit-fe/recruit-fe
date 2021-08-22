@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import './index.css';
 const wpx = window.innerWidth / 375;
 const hpx = window.innerHeight / 812;
 function Product(props) {
-    const { history } = props
+    const { history } = props;
     function backToIndex() {
-        history.push('/home')//返回首页
+        history.push('/home');
     }
+    const [animation, setAnimateion] = useState(false);
     const info = [
         {
             title: "华师匣子",
@@ -37,14 +38,11 @@ function Product(props) {
     const [current, setCurrnet] = useState(0);
     function turn(change) {
         let ele = document.querySelector(`.k-turnAnimation0`);
-        //let ele2 = document.querySelector(`.k-turnAnimation2`);
-        ele.style.transform = `scale(0)`;
+        let ele2 = document.querySelector(`.k-turnAnimation2`);
+        ele.classList.toggle("move");
+        ele2.classList.toggle("move");
+        let temp = current + change;
         setTimeout(() => {
-            ele.style.transform = `translateX(${10 * change}%)`;
-            setTimeout(() => {
-                ele.style.transform='';
-            }, 200);
-            let temp = current + change;
             if (temp < 0) {
                 setCurrnet(info.length - 1);
             } else if (temp >= info.length) {
@@ -52,7 +50,28 @@ function Product(props) {
             } else {
                 setCurrnet(temp);
             }
-        }, 0);
+        }, 50);
+        // if (animation) {
+        //     let temp=ele;
+        //     ele=ele2;
+        //     ele2=temp;
+        // }
+        // ele.style.transform = `scale(0)`;
+        // setTimeout(() => {
+        //     ele2.style.transform = `translateX(${10 * change}%)`;
+        //     setTimeout(() => {
+        //         ele.style.transform = '';
+        //     }, 200);
+        //     let temp = current + change;
+        //     if (temp < 0) {
+        //         setCurrnet(info.length - 1);
+        //     } else if (temp >= info.length) {
+        //         setCurrnet(0);
+        //     } else {
+        //         setCurrnet(temp);
+        //     }
+        // }, 0);
+        // setAnimateion(!animation);
     }
     // useEffect(()=>{
     //     setInterval(()=>{
@@ -67,7 +86,6 @@ function Product(props) {
                 height: 812 * hpx,
             }}
         >
-            <div className = "mask">
             <div
                 className="k-uni k-jz"
                 style={{
@@ -94,25 +112,25 @@ function Product(props) {
                     >
 
                     </div>
-                    <div className="k-backText"
+                    <div className="k-uni k-backText"
                     >
                         返回
                     </div>
                 </div>
-                <div
+                <div className="k-uni k-team"
                     style={{
                         position: 'absolute',
                         width: 375 * wpx,
                         textAlign: 'center',
                         fontSize: '32px',
-                        maxHeight: 'min-content',
+                        height: 375/1175*313*wpx+'px',
                         margin: '0 auto',
                         top: 118 * hpx,
                         color: '#C03B20',
                         fontWeight: 'bold',
                     }}
                 >
-                    团队产品
+                    {/* 团队产品 */}
             </div>
                 <div
                     className="k-turnAnimation0"
@@ -195,7 +213,6 @@ function Product(props) {
                         next
                         </div>
                 </div>
-            </div>
             </div>
         </div>
     </>);
