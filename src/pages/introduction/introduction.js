@@ -1,7 +1,7 @@
 import React from 'react'
-import bg from '../../imgs/bg.svg'
+import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
-import reel from '../../imgs/reel.svg'
+import reel from '../../imgs/reel.png'
 import './introduction.css'
 import { Link } from "react-router-dom"
 

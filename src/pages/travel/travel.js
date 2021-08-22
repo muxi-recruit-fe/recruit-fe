@@ -1,9 +1,9 @@
 import React from 'react'
-import bg from '../../imgs/bg.svg'
+import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
-import reel from '../../imgs/reel.svg'
-import pic5 from '../../imgs/05.jpeg'
-import pic6 from '../../imgs/06.jpeg'
+import reel from '../../imgs/reel.png'
+import pic5 from '../../imgs/05.jpg'
+import pic6 from '../../imgs/06.jpg'
 import './travel.css'
 import { Link } from "react-router-dom"
 

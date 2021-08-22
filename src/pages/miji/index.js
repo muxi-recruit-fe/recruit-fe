@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import imgCP from './img/changpin.svg'
-import imgMFE from './img/mfe.svg'
-import imgAZ from './img/anzhou.svg'
-import imgHD from './img/bfe.svg'
-import imgSJ from './img/sheji.svg'
-import img_back from './img/UI_Back.svg'
-import img_text from './img/img_back_text.svg'
+import imgCP from './img/cp.png'
+import imgMFE from './img/qd.png'
+import imgAZ from './img/az.png'
+import imgHD from './img/hd.png'
+import imgSJ from './img/sj.png'
+import img_back from './img/UI_Back.png'
+import img_text from './img/back.png'
 import './index.css'
 
 export default class Miji extends Component{

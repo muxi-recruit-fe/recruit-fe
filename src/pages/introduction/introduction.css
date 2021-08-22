@@ -1,7 +1,4 @@
-@font-face{
-    font-family: 'TsangerZhoukeZhengdabangshu';
-    src: url(../../font/TsangerZhoukeZhengdabangshu.ttf);
-}
+
 
 .main{
     position: relative;
@@ -179,7 +176,6 @@
     bottom: 2%;
     font-size: 1.3em;
     font-weight: bold;
-    font-family: 'TsangerZhoukeZhengdabangshu';
 }
 
 .title1{
@@ -189,7 +185,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 5%;
     margin-top: 35% !important;
-    font-family: 'TsangerZhoukeZhengdabangshu';
     color: #C03B20;
 }
 

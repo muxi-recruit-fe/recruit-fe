@@ -67,6 +67,7 @@ function Product(props) {
                 height: 812 * hpx,
             }}
         >
+            <div className = "mask">
             <div
                 className="k-uni k-jz"
                 style={{
@@ -194,6 +195,7 @@ function Product(props) {
                         next
                         </div>
                 </div>
+            </div>
             </div>
         </div>
     </>);

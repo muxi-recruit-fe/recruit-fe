@@ -1,9 +1,9 @@
 import React from 'react'
-import bg from '../../imgs/bg.svg'
+import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
-import reel from '../../imgs/reel.svg'
-import pic3 from '../../imgs/03.jpeg'
-import pic4 from '../../imgs/04.jpeg'
+import reel from '../../imgs/reel.png'
+import pic3 from '../../imgs/03.jpg'
+import pic4 from '../../imgs/04.jpg'
 import './meeting.css'
 import { Link } from "react-router-dom"
 

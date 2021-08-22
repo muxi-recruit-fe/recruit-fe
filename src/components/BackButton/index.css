@@ -1,15 +1,9 @@
-@font-face {
-    font-family: TsangerZhoukeZhengdabangshu;
-    src: url('../../font/仓耳周珂正大榜书.ttf');
-}
-
 
 .back-comp {
     position: absolute;
     top: 3vh;
     left: 4vw;
     z-index: 20;
-    font-family: TsangerZhoukeZhengdabangshu;
     color: white;
     text-align: center;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './index.css'
-import enterbutton from './images/button.svg'
+import enterbutton from './images/button.png'
 
 export default function Guide(props) {
     const { history } = props

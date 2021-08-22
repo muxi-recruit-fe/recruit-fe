@@ -1,7 +1,3 @@
-@font-face{
-    font-family: 'TsangerZhoukeZhengdabangshu';
-    src: url(../../font/TsangerZhoukeZhengdabangshu.ttf);
-}
 
 * {
     margin: 0;
@@ -13,7 +9,7 @@
     height: 100vh;
     width: 100vw;
     text-align: center;
-    background-image: url('./images/homepage.svg');
+    background-image: url('./images/homepage.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -74,22 +70,12 @@ img {
     position: absolute;
     right: 10vw;
     bottom: 5vh;
-    font-family: 'TsangerZhoukeZhengdabangshu';
 }
 
 .back-lyl{
     position: absolute;
     left: 10vw;
     bottom: 5vh;
-    font-family: 'TsangerZhoukeZhengdabangshu';
-}
-
-.share-lyl h1{
-    font-family: 'TsangerZhoukeZhengdabangshu';
-}
-
-.back-lyl h1{
-    font-family: 'TsangerZhoukeZhengdabangshu';
 }
 
 .beBig {

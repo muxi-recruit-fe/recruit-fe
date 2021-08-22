@@ -1,6 +1,4 @@
-*{
-    font-family:uniStyle;
-}
+
 .k-uni {
     background-position: center;
     background-size: 100% 100%;
@@ -24,7 +22,7 @@
 }
 
 .k-bg {
-    background-image: url(./img/首页375812@2x.png);
+    background-image: url(./img/sy.png);
 }
 
 .k-back {
@@ -36,7 +34,7 @@
 }
 
 .k-jz {
-    background-image: url(./img/木犀宝典-卷轴@2x.png);
+    background-image: url(./img/jz.png);
 }
 
 .k-title {
@@ -75,10 +73,7 @@
     font-size: 20px;
     text-align: center;
 }
-@font-face {
-    font-family: 'uniStyle';
-    src: url(./思源黑体\ \(5\).otf);
-}
+
 .k-turnAnimation0,.turnAnimation2{
     transition: all 0.2s; 
 }

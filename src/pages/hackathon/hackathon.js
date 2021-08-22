@@ -1,9 +1,9 @@
 import React from 'react'
-import bg from '../../imgs/bg.svg'
+import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
-import reel from '../../imgs/reel.svg'
-import pic1 from '../../imgs/01.jpeg'
-import pic2 from '../../imgs/02.jpeg'
+import reel from '../../imgs/reel.png'
+import pic1 from '../../imgs/01.jpg'
+import pic2 from '../../imgs/02.jpg'
 import './hackathon.css'
 import { Link } from "react-router-dom"
 
