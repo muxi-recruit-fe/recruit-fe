@@ -1,8 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './index.css'
 import enterbutton from './images/button.png'
 
 export default function Guide(props) {
+    useEffect(() => {
+        if (window.screen.width > 1000)
+            props.history.push('./pc')
+    })
     const { history } = props
     const [guideStyle, setGuideStyle] = useState({})
     const [coverStyle, setCoverStyle] = useState({})

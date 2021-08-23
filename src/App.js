@@ -1,3 +1,4 @@
+
 import './App.css';
 import Hackathon from './pages/hackathon/hackathon';
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
@@ -11,10 +12,11 @@ import Notice from "./pages/Notice";
 import Miji from "./pages/miji";
 import Info from "./pages/info";
 import Product from "./pages/Product";
+import Pc from './pages/Pc'
 import AnimatedRouter from 'react-animated-router';
 import 'react-animated-router/animate.css';
 
-function App() {
+function App(props) {
   return (
     <div className='animate-route'>
       <Router>
@@ -32,6 +34,7 @@ function App() {
         <Route path='/notice' component={Notice} />
         <Route path='/miji' component={Miji}></Route>
         <Route path='/info' component={Info}></Route>
+        <Route path='/pc' component={Pc}></Route>
       </Router>
     </div>
   );

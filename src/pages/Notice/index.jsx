@@ -1,5 +1,6 @@
 import React from 'react'
 import BackButton from '../../components/BackButton'
+import text from './text.png'
 import './index.css'
 
 export default function Notice() {
@@ -9,18 +10,7 @@ export default function Notice() {
             <div className='notice-cover'>
                 <div className="notice">
                     <div className="text-lyl">
-                        <br /> <br /> <br /> <br />
-                        欢迎匣客来到木犀客栈！
-                        <br /> <br />
-                        外边江湖险恶
-                        <br /> <br />
-                        木犀客栈显赫
-                        <br /> <br />
-                        镇压妖魔鬼怪
-                        <br /> <br />
-                        唯有木犀流派
-                        <br /> <br />
-                        客官您里边请~
+                        <img src={text} alt=''></img>
                     </div>
                 </div>
             </div>

@@ -77,10 +77,36 @@ img {
     left: 10vw;
     bottom: 5vh;
 }
+.back-lyl{
+    position: absolute;
+}
+
+.back-lyl img{
+    height: 100%;
+    width: 100%;
+}
 
 .beBig {
     animation: 1s bebig;
     animation-direction: alternate
+}
+
+.ewm{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.52);
+    z-index: 5;
+   
+}
+
+.ewm img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 38vh;
+    width: 80vw;
 }
 
 @keyframes bebig {

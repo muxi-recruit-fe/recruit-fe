@@ -5,11 +5,19 @@ import MXBD from './images/mxbd.svg'
 import GG from './images/gg.svg'
 import Share from './images/share.svg'
 import Back from './images/backbutton.svg'
+import ewm from './images/share.png'
+import backtext from './images/backtext.png'
 import './index.css'
 
 export default function Home(props) {
+
     const { history } = props
     const [content, setContent] = useState()
+    const [isShare, setIsShare] = useState(false)
+
+    const handleShare = () => {
+        setIsShare(!isShare)
+    }
 
     const handleNotice = () => {
         history.push('/notice')
@@ -74,7 +82,8 @@ export default function Home(props) {
             <div className={content === 3 ? 'content3 beBig' : 'content3 content'} onClick={handleContent(3)}>
                 <img src={GG} alt="" />
             </div>
-            <div className="share-lyl content-lyl">
+            <div className="ewm" style={{ display: isShare ? 'block' : 'none' }} onClick={handleShare}>分享二维码给其他匣客！点击屏幕任意处可关闭该弹窗哦！<img src={ewm} alt="" /></div>
+            <div className="share-lyl content-lyl" onClick={handleShare}>
                 <img src={Share} alt="" />
                 <h1>分享</h1>
             </div>

@@ -24,7 +24,7 @@
 
 .text-lyl {
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     height: 100%;
     width: 100%;
@@ -33,6 +33,11 @@
     color: black;
     z-index: 11;
     text-align: center;
+}
+
+.text-lyl img{
+    height: 100%;
+    width: 100%;
 }
 
 
