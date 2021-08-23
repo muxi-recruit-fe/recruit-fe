@@ -3,10 +3,9 @@ import JHFY from './images/jhfy.svg'
 import MXMJ from './images/mxmj.svg'
 import MXBD from './images/mxbd.svg'
 import GG from './images/gg.svg'
-import Share from './images/share.svg'
-import Back from './images/backbutton.svg'
-import ewm from './images/share.png'
-import backtext from './images/backtext.png'
+import Share from './images/share.png'
+import Back from './images/back.png'
+import ewm from './images/ewm.png'
 import './index.css'
 
 export default function Home(props) {
@@ -85,11 +84,9 @@ export default function Home(props) {
             <div className="ewm" style={{ display: isShare ? 'block' : 'none' }} onClick={handleShare}>分享二维码给其他匣客！点击屏幕任意处可关闭该弹窗哦！<img src={ewm} alt="" /></div>
             <div className="share-lyl content-lyl" onClick={handleShare}>
                 <img src={Share} alt="" />
-                <h1>分享</h1>
             </div>
             <div className="back-lyl content-lyl" onClick={handleBack}>
                 <img src={Back} alt="" />
-                <h1>返回</h1>
             </div>
         </div>
     )
