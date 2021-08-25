@@ -29,10 +29,10 @@ export default class Travel extends React.Component {
                     <div className="container1">
                         <img src={jhfy} className="title1-wyc" alt=''></img>
                         <div className="rotation-wyc">
-                            <input type="radio" name="rotation" className="rota_input" defaultChecked={true}></input>
+                            <input type="radio" name="rotation" className="rota_input1" defaultChecked={true}></input>
                             <img src={pic5} className="image" alt=''></img>
 
-                            <input type="radio" name="rotation" className="rota_input"></input>
+                            <input type="radio" name="rotation" className="rota_input2"></input>
                             <img src={pic6} className="image" alt=''></img>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default class Travel extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <Link to={'/home'}><img src={back} className="back-wyc" alt=''/> </Link>
+                        <Link to={'/home'}><img src={back} className="back-wycy" alt=''/> </Link>
                         <img src={fh} className="back1-wyc" alt=''/>
                     </div>
                 </div>

@@ -60,7 +60,7 @@ export default class Miji extends Component{
         return (
             <div className='contain_miji'>
                 <div className='back_miji'>
-                    <img src={img_back} alt='' className='backimg' onClick={this.Tohome.bind(this)}></img>
+                    <img src={img_back} alt='' className='backimg1' onClick={this.Tohome.bind(this)}></img>
                     <img src={img_text} alt='' className='backimg' onClick={this.Tohome.bind(this)}></img>
                 </div>
                 <div className='zubie'>

@@ -188,7 +188,7 @@ function Product(props) {
                         {info[current].title}
                     </div>
                     <div
-                        className="info"
+                        className="info-w"
                     >
                         {info[current].text}
                     </div>

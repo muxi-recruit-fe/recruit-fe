@@ -39,7 +39,7 @@ export default class Introduction extends React.Component {
                         <Link to={'/join'} className="link"><div className="previous">PREV</div></Link>
                     </div>
                     <div>
-                        <Link to={'/home'}><img src={back} className="back-wyc" alt=''/> </Link>
+                        <Link to={'/home'}><img src={back} className="back-wycy" alt=''/> </Link>
                         <img src={fh} className="back1-wyc" alt=''/>
                     </div>
                 </div>
