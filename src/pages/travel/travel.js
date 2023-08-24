@@ -2,8 +2,6 @@ import React from 'react'
 import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
 import reel from '../../imgs/reel.png'
-import pic5 from '../../imgs/05.jpg'
-import pic6 from '../../imgs/06.jpg'
 import fh from '../../imgs/fh.png'
 import jhfy from '../../imgs/jhfy.png'
 import './travel.css'
@@ -29,12 +27,14 @@ export default class Travel extends React.Component {
                     <div className="container1">
                         <img src={jhfy} className="title1-wyc" alt=''></img>
                         <div className="rotation-wyc">
-                            <input type="radio" name="rotation" className="rota_input1" defaultChecked={true}></input>
-                            <img src={pic5} className="image" alt=''></img>
 
-                            <input type="radio" name="rotation" className="rota_input2"></input>
-                            <img src={pic6} className="image" alt=''></img>
-                        </div>
+                            <input type="radio" name="rotation" className="rota_input3" defaultChecked={true}></input>
+                            <img src=' http://muxi-fresh.muxixyz.com/muxijianghu_09.jpg' className="image" alt=''></img>
+
+                            <input type="radio" name="rotation" className="rota_input1" ></input>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_04.jpg' className="image" alt=''></img>
+
+                            </div>
                     </div>
 
                     <div className="container">

@@ -48,6 +48,13 @@
     left:80%;
 }
 
+.rota_input3{
+    position: absolute;
+    bottom: 10px;
+    left:60%;
+}
+
+
 .container{
     width: 50%;
     height: 50%;

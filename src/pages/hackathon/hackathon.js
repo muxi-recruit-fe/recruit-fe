@@ -1,9 +1,6 @@
 import React from 'react'
 import bg from '../../imgs/bg.png'
-import back from '../../imgs/back.svg'
 import reel from '../../imgs/reel.png'
-import pic1 from '../../imgs/01.jpg'
-import pic2 from '../../imgs/02.jpg'
 import fh from '../../imgs/fh.png'
 import jhfy from '../../imgs/jhfy.png'
 import './hackathon.css'
@@ -31,11 +28,17 @@ export default class Hackathon extends React.Component {
                     <div className="container1">
                         <img src={jhfy} className="title1-wyc" alt=''></img>
                         <div className="rotation-wyc">
-                            <input type="radio" name="rotation" className="rota_input1" defaultChecked={true}></input>
-                            <img src={pic1} className="image" alt=''></img>
+                            <input type="radio" name="rotation" className="rota_input4" defaultChecked={true}></input>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_07.jpg' className="image" alt=''></img>
+
+                            <input type="radio" name="rotation" className="rota_input3" ></input>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_08.jpg' className="image" alt=''></img>
+
+                            <input type="radio" name="rotation" className="rota_input1" ></input>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_01.jpg' className="image" alt=''></img>
 
                             <input type="radio" name="rotation" className="rota_input2"></input>
-                            <img src={pic2} className="image" alt=''></img>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_02.jpg' className="image" alt=''></img>
                         </div>
                     </div>
 
@@ -49,7 +52,7 @@ export default class Hackathon extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <Link to={'/home'}><img src={back} className="back-wycy"  alt=''/></Link> 
+                        <Link to={'/home'}><img src='http://muxi-fresh.muxixyz.com/muxijianghu_back.svg' className="back-wycy"  alt=''/></Link> 
                         <img src={fh} className="back1-wyc" alt=''/>
                     </div>
                 </div>

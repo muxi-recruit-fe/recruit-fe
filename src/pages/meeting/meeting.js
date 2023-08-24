@@ -2,8 +2,6 @@ import React from 'react'
 import bg from '../../imgs/bg.png'
 import back from '../../imgs/back.svg'
 import reel from '../../imgs/reel.png'
-import pic3 from '../../imgs/03.jpg'
-import pic4 from '../../imgs/04.jpg'
 import fh from '../../imgs/fh.png'
 import jhfy from '../../imgs/jhfy.png'
 import './meeting.css'
@@ -30,10 +28,16 @@ export default class Meeting extends React.Component {
                     <img src={jhfy} className="title1-wyc" alt=''></img>
                         <div className="rotation-wyc">
                             <input type="radio" name="rotation" className="rota_input1" defaultChecked={true}></input>
-                            <img src={pic3} className="image" alt=''></img>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_03.jpg' className="image" alt=''></img>
+                           
+                            <input type="radio" name="rotation" className="rota_input3" defaultChecked={true}></input>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_11.jpg' className="image" alt=''></img>
+
+                            <input type="radio" name="rotation" className="rota_input4" defaultChecked={true}></input>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_10.jpg' className="image" alt=''></img>
 
                             <input type="radio" name="rotation" className="rota_input2"></input>
-                            <img src={pic4} className="image" alt=''></img>
+                            <img src='http://muxi-fresh.muxixyz.com/muxijianghu_06.jpg' className="image" alt=''></img>
                         </div>
                     </div>
 
