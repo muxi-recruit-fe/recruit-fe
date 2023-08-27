@@ -37,8 +37,9 @@ export default class Join extends React.Component {
                         <div className="text1">扫码加入木犀秋招群 QQ：254386725</div>
                         
                         <div className="btn">
-                            <Link to={'/introduction'} className="link"> <div className="next1">NEXT</div> </Link>
+                           
                             <Link to={'/meeting'} className="link"><div className="previous">PREV</div> </Link>
+                            <Link to={'/introduction'} className="link"> <div className="next1">NEXT</div> </Link>
                         </div>
                     </div>
                     <div>

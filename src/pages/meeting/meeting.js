@@ -47,8 +47,9 @@ export default class Meeting extends React.Component {
                         <div className="text">秘密基地的全体大会是团队运作必不可少的一部分</div>
 
                         <div className="btn">
-                          <Link to={'/join'} className="link"> <div className="next-wyc">NEXT</div> </Link> 
+                         
                           <Link to={'/travel'} className="link"><div className="previous">PREV</div></Link>
+                          <Link to={'/join'} className="link"> <div className="next-wyc">NEXT</div> </Link> 
                         </div>
                     </div>
                     <div>
