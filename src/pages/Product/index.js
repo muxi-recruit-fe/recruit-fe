@@ -197,7 +197,7 @@ function Product(props) {
                 <div className="k-nextBox"
                     style={{
                         display: 'flex',
-                        bottom: 146 * hpx,
+                        bottom: 120*hpx,//146 * hpx, 
                         left: 193.5 * wpx,
                         justifyContent: 'space-between',
                     }}

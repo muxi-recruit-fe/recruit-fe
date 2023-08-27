@@ -58,6 +58,7 @@
     width: 200px;
     transform: translateX(-50%);
     height: 30px;
+    bottom: 70px;
 }
 .k-turnText{
     width: 83px;
