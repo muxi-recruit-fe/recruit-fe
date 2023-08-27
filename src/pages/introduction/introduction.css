@@ -38,7 +38,7 @@
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    margin-top: -65%;
+    margin-top: -55%;
 }
 
 .text2{
@@ -54,7 +54,7 @@
 
 @media (min-height:800px){
     .text2{
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
 }
 
@@ -62,7 +62,7 @@
 
 @media (max-height:700px){
     .text2{
-        font-size: 0.9em;
+        font-size: 0.85em;
     }
 }
 
