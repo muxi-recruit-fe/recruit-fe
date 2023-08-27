@@ -28,7 +28,7 @@ export default class Join extends React.Component {
 
                     <div className="container1">
                     <img src={jhfy} className="title1-wyc" alt=''></img>
-                        <img src='http://ossrecruit.muxixyz.com/2023fallQQcode.png' className = "code" alt=''></img>
+                    <img src='http://ossrecruit.muxixyz.com/2023fallQQcode.png' className = "code" alt=''></img>
                     </div>
 
                     <div className="container">

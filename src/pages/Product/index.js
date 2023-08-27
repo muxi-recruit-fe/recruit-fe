@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState} from 'react';
 import './index.css';
 const wpx = window.innerWidth / 375;
 const hpx = window.innerHeight / 812;
@@ -7,7 +7,7 @@ function Product(props) {
     function backToIndex() {
         history.push('/home');
     }
-    const [animation, setAnimateion] = useState(false);
+   
     const info = [
         {
             title: "华师匣子",

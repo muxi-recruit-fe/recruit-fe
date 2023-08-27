@@ -52,6 +52,8 @@
 .back_miji{
     width: 25%;
     height: 10%;
+    position: absolute;
+    z-index: 12;
 }
 .backimg{
     width: 51%;
